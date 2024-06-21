@@ -7,4 +7,4 @@ A semi-supervised approach for improving generalization in non-intrusive load mo
 
 In this repository, a trained neural network using the proposed DANN approach for disaggregation of microwave’s electrical consumption (```microwave_net.h5```) is provided, together with the used testing data set (```testing_dataset_microwave.pkl```). The script written in Python (```main.py```) is loading a pre-trained neural network-based model and is evaluating performance on the provided data set in consistence with the results presented in the aforementioned paper and technical solution.
 
-The code is written in Python 3.11 and a list of requirements is given in ```requirements.txt```.
+The code is written in Python 3.11 and a list of requirements is given in ```requirements.txt```. Due to large file sizes for neural network and data set, it is necessary to clone the repository in an adequate manner using Git and Git LFS.
